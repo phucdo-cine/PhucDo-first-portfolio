@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuc Do's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">  
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html"> </a>
+        </div>
+        <ul class="navigation_menu">
+            <li class="underline_about">
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="index.html" id="logo link"><img id="logo" src="img/LOGO.png"></a>
+            </li>
+            <li class="underline_work">
+                <a href="work.html">WORK</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="clapper-board" id="clapper-board">
+        <div class="clapper-board" id="clapper-board">
+    <div class="contact-wrapper">
+        <a href="https://facebook.com" class="facebook" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/hannahphuc/" class="instagram" target="_blank">Instagram</a>
+        <a href="mailto:s4136435@rmit.edu.vn" class="email" target="_blank">Email</a>
+    </div>
+    <img class="clapper-board-top" alt="clapper board top" src="img/CLAPPER BOARD TOP.png">
+    <img class="clapper-board-bottom" alt="clapper board bottom" src="img/CLAPPER BOARD BOTTOM.png">
+</div>
+    </div>
+    <div class="dash-board">
+        <img class="dash-frame" alt="" src="img/dash frame.png">
+        <div class="software-wrapper">
+            <b class="software">SOFTWARE</b>
+        </div>
+        <img class="logosillustrator-icon" alt="" src="img/logos_illustrator.png">
+        <img class="logosphotoshop-icon" alt="" src="img/logos_photoshop.png">
+        <img class="logosindesign-icon" alt="" src="img/logos_indesign.png">
+        <img class="logosfigma-icon" alt="" src="img/logos_figma.png">
+        <img class="logosblender-icon" alt="" src="img/logos_blender.png">
+        <img class="logoscapcut-icon" alt="" src="img/logos_capcut.png">
+        <img class="logosdavinci-resolve-icon" alt="" src="img/logos_davinci-resolve.png">
+        <img class="logosvisual-studio-code-icon" alt="" src="img/logos_visual-studio-code.png">
+        <div class="creative-field-wrapper">
+            <b class="software">CREATIVE FIELD</b>
+        </div>
+        <div class="video-editing">Video Editing</div>
+        <div class="uiux-design">UI/UX Design</div>
+        <div class="uiux-design1">Photographer</div>
+    </div>
+    <script>
+    // click-to-rotate effect of the clapper board
+    document.querySelector('.clapper-board').addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

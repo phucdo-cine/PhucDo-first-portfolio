@@ -1,0 +1,588 @@
+/* ONCE UPON A TIME */
+.works-1 {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--black);
+  	height: 3097px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: var(--font-size-26);
+  	color: var(--white);
+  	font-family: var(--para-text);
+}
+
+.once-upon-a {
+  	position: absolute;
+  	top: 184px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-size: 64px;
+  	font-family: var(--big-text);
+  	text-align: center;
+  	width: max-content;
+}
+
+.works-1-child {
+  	position: absolute;
+  	top: 358px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: var(--black);
+  	border: 3px solid var(--primary-color-bisque);
+  	box-sizing: border-box;
+  	width: 1267px;
+  	height: 856px;
+}
+
+.ngy-xa-ngy-xa {
+  position: absolute;
+  top: 386px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.since-ancient-times {
+  	position: absolute;
+  	top: 1320px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 1138px;
+}
+.group-project {
+  	position: absolute;
+  	top: 1642px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 243px;
+}
+.role-line-vector {
+  	position: absolute;
+  	top: 1692px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 484px;
+}
+.tools-illustrator {
+  	position: absolute;
+  	top: 1742px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 484px;
+}
+.adaptation {
+  	position: absolute;
+  	top: 1860px;
+  	left: 86px;
+  	font-size: var(--font-size-28);
+  	font-weight: 500;
+  	font-family: var(--font-funnel-display);
+  	display: inline-block;
+  	width: 208px;
+}
+.animation {
+  	position: absolute;
+  	top: 2572px;
+  	left: 86px;
+  	font-size: var(--font-size-28);
+  	font-weight: 500;
+  	font-family: var(--font-funnel-display);
+  	display: inline-block;
+  	width: 208px;
+}
+.michau-256x256 {
+  	position: absolute;
+  	top: 1926px;
+  	left: 225px;
+  	width: 512px;
+  	height: 512px;
+  	object-fit: cover;
+}
+.michau-128x128 {
+  	position: absolute;
+  	top: 2182px;
+  	left: 812px;
+  	width: 256px;
+  	height: 256px;
+  	object-fit: cover;
+}
+.michau-48x48 {
+  	position: absolute;
+  	top: 2342px;
+  	left: 1143px;
+  	width: 96px;
+  	height: 96px;
+  	object-fit: cover;
+}
+.khe-animated-icon {
+  	position: absolute;
+  	top: 2638px;
+  	left: 155px;
+  	width: 256px;
+  	height: 256px;
+  	object-fit: cover;
+}
+.banh-animated-icon {
+  	position: absolute;
+  	top: 2638px;
+  	left: 463px;
+  	width: 256px;
+  	height: 256px;
+  	object-fit: cover;
+}
+.guom-animated-icon {
+  	position: absolute;
+  	top: 2638px;
+  	left: 771px;
+  	width: 256px;
+  	height: 256px;
+  	object-fit: cover;
+}
+.tam-animated-icon {
+  	position: absolute;
+  	top: 2638px;
+  	left: 1079px;
+  	width: 256px;
+  	height: 256px;
+  	object-fit: cover;
+}
+
+/* HOW TO BE CONFIDENT ... */
+.works-2 {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--black);
+  	height: 3700px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: var(--font-size-26);
+  	color: var(--white);
+  	font-family: var(--para-text);
+}
+.confident-home-icon {
+  	position: absolute;
+  	top: 437px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	width: 1187px;
+  	height: 845px;
+  	object-fit: cover;
+  	z-index: 1;
+}
+.works-2-child {
+  	position: absolute;
+  	top: 428px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: var(--color-gainsboro);
+  	border: 3px solid var(--primary-color-bisque);
+  	box-sizing: border-box;
+  	width: 1207px;
+  	height: 864px;
+}
+.how-to-be {
+  	margin: 0;
+}
+.how-to-be-container {
+  	position: absolute;
+  	top: 184px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-size: 64px;
+  	font-family: var(--big-text);
+  	width: max-content;
+}
+
+.in-this-modern {
+  	position: absolute;
+  	top: 1385px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 1138px;
+}
+.group-project-2 {
+  	position: absolute;
+  	top: 1782px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 243px;
+}
+.role-line-vector-2 {
+  	position: absolute;
+  	top: 1832px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 484px;
+}
+.tools-illustrator-2 {
+  	position: absolute;
+  	top: 1882px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 484px;
+}
+.confident-overall-step {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  width: 885px;
+  height: 632px;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 2750px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  width: max-content;
+}
+
+.gallery-row-left {
+  animation: scrollLeft 30s linear infinite;
+}
+
+.gallery-row-right {
+  animation: scrollRight 30s linear infinite;
+}
+
+.gallery-item {
+  position: static !important; /* Override absolute positioning */
+  width: 380px;
+  height: 270px;
+  flex: 0 0 auto;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation keyframes for auto-scrolling */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust based on content width */
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Pause animation on hover */
+.gallery-row:hover {
+  animation-play-state: paused;
+}
+
+/* NOCTURNE LUMINOUS */
+.works-3 {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--black);
+  	height: 2638px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: var(--font-size-26);
+  	color: var(--white);
+  	font-family: var(--para-text);
+}
+
+.nocturne-luminous {
+  position: absolute;
+  top: 184px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 64px;
+  font-family: var(--big-text);
+}
+.works-3-item {
+  position: absolute;
+  top: 357px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--primary-color-bisque);
+  box-sizing: border-box;
+  width: 1206px;
+  height: 815px;
+}
+.nocturne-luminous-icon {
+  position: absolute;
+  top: 367px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1185px;
+  height: 795px;
+  object-fit: cover;
+}
+
+.we-are-organizing {
+  position: absolute;
+  top: 1265px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  display: inline-block;
+  width: 1138px;
+}
+
+.group-project-3 {
+  position: absolute;
+  top: 1631px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  display: inline-block;
+  width: 243px;
+}
+
+.role-prototype-3 {
+  position: absolute;
+  top: 1681px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  display: inline-block;
+  width: 484px;
+}
+
+.tools-illustrator-3 {
+  position: absolute;
+  top: 1731px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  display: inline-block;
+  width: 484px;
+}
+
+.works-3-child {
+  position: absolute;
+  top: 1833px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color-bisque);
+  width: 1257px;
+  height: 611px;
+}
+.nocturne-5 {
+  	position: absolute;
+  	top: 2152px;
+  	left: 559px;
+  	width: 382px;
+  	height: 272px;
+  	object-fit: cover;
+}
+.nocturne-4 {
+  	position: absolute;
+  	top: 2152px;
+  	left: 161px;
+  	width: 384px;
+  	height: 272px;
+  	object-fit: cover;
+}
+.nocturne-3 {
+  	position: absolute;
+  	top: 1851px;
+  	left: 957px;
+  	width: 401px;
+  	height: 273px;
+  	object-fit: cover;
+}
+.nocturne-2 {
+  	position: absolute;
+  	top: 1851px;
+  	left: 558px;
+  	width: 382px;
+  	height: 273px;
+  	object-fit: cover;
+}
+.nocturne-1 {
+  	position: absolute;
+  	top: 1853px;
+  	left: 161px;
+  	width: 382px;
+  	height: 271px;
+  	object-fit: cover;
+}
+.nocturne-6 {
+  	position: absolute;
+  	top: 2152px;
+  	left: 957px;
+  	width: 401px;
+  	height: 211px;
+  	object-fit: cover;
+}
+
+/* PHOTOGRAPHY */
+.works-4 {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--black);
+  	height: 3416px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 42px;
+  	color: var(--white);
+  	font-family: var(--para-text);
+}
+
+.dive-into-interest {
+  	position: absolute;
+  	top: 184px;
+  	left: 50%;
+    transform: translateX(-50%);
+  	font-size: 64px;
+  	font-family: var(--big-text);
+}
+
+.photography {
+  	position: absolute;
+  	top: 321px;
+  	left: 50%;
+    transform: translateX(-50%);
+  	font-size: 32px;
+  	font-weight: 500;
+  	font-family: var(--para-text);
+  	display: inline-block;
+  	width: 243px;
+}
+
+.works-4-child {
+  	position: absolute;
+  	top: 434px;
+  	left: 50%;
+    transform: translateX(-50%);
+  	background-color: var(--primary-color-bisque);
+  	width: 1257px;
+  	height: 2701px;
+}
+
+.thp-i-malay {
+  	position: absolute;
+  	top: 495px;
+  	left: 179px;
+  	width: 398px;
+  	height: 531px;
+  	object-fit: cover;
+}
+.camera-sunset-icon {
+  	position: absolute;
+  	top: 495px;
+  	left: 637px;
+  	width: 369px;
+  	height: 554px;
+  	object-fit: cover;
+}
+.christmas-icon {
+  	position: absolute;
+  	top: 2241px;
+  	right: 179px;
+  	width: 639px;
+  	height: 426px;
+  	object-fit: cover;
+}
+.book-shelf-icon {
+  	position: absolute;
+  	top: 495px;
+  	right: 179px;
+  	width: 274px;
+  	height: 411px;
+  	object-fit: cover;
+}
+.rainsun-icon {
+  	position: absolute;
+  	top: 1466px;
+  	right: 179px;
+  	width: 534px;
+  	height: 713px;
+  	object-fit: cover;
+}
+.beach-sunset-icon {
+  	position: absolute;
+  	top: 1089px;
+  	left: 179px;
+  	width: 528px;
+  	height: 792px;
+  	object-fit: cover;
+}
+.windowtree-icon {
+  	position: absolute;
+  	top: 1089px;
+  	right: 179px;
+  	width: 472px;
+  	height: 315px;
+  	object-fit: cover;
+}
+.new-year-icon {
+  	position: absolute;
+  	top: 1951px;
+  	left: 179px;
+  	width: 477px;
+  	height: 716px;
+  	object-fit: cover;
+}
+.sao-vng-icon {
+  	position: absolute;
+  	top: 2729px;
+  	left: 50%;
+    transform: translateX(-50%);
+  	width: 539px;
+  	height: 359px;
+  	object-fit: cover;
+}
+
+.fade-in-image {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in-image.visible {
+  opacity: 1;
+}
+
+

@@ -1,0 +1,364 @@
+/* Clapper board */
+.clapper-board-bottom {
+  	position: absolute;
+  	height: 71.77%;
+  	width: 100%;
+  	top: 5%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.clapper-board-top {
+  	position: absolute;
+  	height: 28.95%;
+  	width: 96.93%;
+  	top: 0%;
+  	right: 1.27%;
+  	bottom: 71.05%;
+  	left: 1.8%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.clapper-board {
+  	width: 68%;
+  	position: relative;
+  	height: 1112.3px;
+    top: 5px;
+    margin: 0 auto;
+}
+
+.clapper-board-top,
+.clapper-board-bottom {
+	transform-origin: left center; /* Rotate around the left edge */
+	transition: transform 0.5s cubic-bezier(.77,0,.18,1), top 0.5s cubic-bezier(.77,0,.18,1);
+}
+.clapper-board.active .clapper-board-top {
+  transform: rotate(10.13deg);
+}
+.clapper-board.active .clapper-board-bottom {
+  transform: rotate(-3.11deg);
+}
+
+.contact-wrapper {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 10; /* Ensure it's above the images */
+}
+
+.facebook {
+width: 211.2px;
+position: relative;
+font-size: 26px;
+font-family: var(--para-text);
+color: var(--white);
+text-align: center;
+display: inline-block;
+height: 45.8px;
+top: -180px;
+}
+
+.instagram {
+width: 255.8px;
+position: relative;
+font-size: 26px;
+font-family: var(--para-text);
+color: var(--white);
+text-align: center;
+display: inline-block;
+height: 45.8px;
+top: -180px;
+}
+
+.email {
+width: 150.1px;
+position: relative;
+font-size: 26px;
+font-family: var(--para-text);
+color: var(--white);
+text-align: center;
+display: inline-block;
+height: 45.8px;
+top: -180px;
+}
+
+/* Dash board */
+.dash-board {
+  	width: 100%;
+  	position: relative;
+  	margin: 0 auto;
+  	margin-top: 30px;
+  	height: 350px; /* Reduced from 700px to further shorten the blank space */
+  	text-align: left;
+  	font-size: 28px;
+  	color: #fff;
+  	font-family: var(--para-text);
+}
+.dash-frame {
+  	position: absolute;
+  	top: -300px;
+    left: 450px;
+  	width: 650.05px;
+  	height: 500.5px;
+}
+.software {
+  position: relative;
+	font-family: var(--big-text);
+	font-size: 32px;
+  transition: transform 0.3s ease;
+}
+.software:hover {
+  transform: scale(1.1);
+}
+.software-wrapper {
+  	position: absolute;
+  	top: -305px;
+  	left: 500px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	color: #f2ddbe;
+}
+.logosillustrator-icon {
+  	position: absolute;
+  	top: -98px;
+  	left: 553.5px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+}
+.logosphotoshop-icon {
+  	position: absolute;
+  	top: -148px;
+  	left: 653.5px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+}
+.logosindesign-icon {
+  	position: absolute;
+  	top: -198px;
+  	left: 503.5px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+}
+.logosfigma-icon {
+  	position: absolute;
+  	top: -245px;
+  	left: 760px;
+  	width: 30px;
+  	height: auto;
+  	overflow: hidden;
+}
+.logosblender-icon {
+  	position: absolute;
+  	top: -243px;
+  	left: 951.5px;
+  	width: 47px;
+  	height: 41px;
+  	overflow: hidden;
+}
+.logoscapcut-icon {
+  	position: absolute;
+  	top: -146px;
+  	left: 851px;
+  	width: 48px;
+		height: 45px;
+  	overflow: hidden;
+}
+.logosdavinci-resolve-icon {
+  	position: absolute;
+  	top: -48px;
+  	left: 753.5px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+}
+.logosvisual-studio-code-icon {
+  	position: absolute;
+  	top: -98px;
+  	left: 1000px;
+  	width: 48px;
+  	height: 47px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.creative-field-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 739px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	color: #f2ddbe;
+}
+.video-editing {
+  	position: absolute;
+  	top: 60px;
+  	left: 503px;
+    transition: transform 0.3s ease;
+}
+.video-editing:hover {
+  transform: scale(1.1);
+}
+.uiux-design {
+	position: absolute;
+	top: 110px;
+	left: 850px;
+	display: inline-block;
+	width: 327px;
+	height: 62px;
+	transition: transform 0.3s ease;
+}
+.uiux-design:hover {
+  transform: scale(1.1);
+}
+.uiux-design1 {
+	position: absolute;
+	top: 155px;
+	left: 602px;
+	transition: transform 0.3s ease;
+}
+.uiux-design1:hover {
+  transform: scale(1.1);
+}
+
+/* Icon shake animation on hover */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+[class*="-icon"]:hover {
+  animation: shake 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* DESKTOP STYLES (>769px) - Default styles above */
+
+/* TABLET STYLES (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Clapper board adjustments */
+    .clapper-board {
+        width: 80%;
+        height: 70vh;
+    }
+    
+    /* Contact links adjustments */
+    .contact-wrapper {
+        bottom: 8%;
+    }
+    .facebook, .instagram, .email {
+        font-size: 20px;
+        height: 35px;
+        top: -150px;
+    }
+    
+    /* Dashboard adjustments */
+    .dash-board {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    /* Software section adjustments */
+    .software {
+        font-size: 28px;
+    }
+    
+    /* Software icons adjustments */
+    .logosillustrator-icon,
+    .logosphotoshop-icon,
+    .logosindesign-icon,
+    .logosblender-icon,
+    .logoscapcut-icon,
+    .logosdavinci-resolve-icon,
+    .logosvisual-studio-code-icon {
+        width: 8%;
+    }
+    .logosfigma-icon {
+        width: 6%;
+    }
+    
+    /* Creative field adjustments */
+    .video-editing, .uiux-design, .uiux-design1 {
+        font-size: 24px;
+    }
+}
+
+/* MOBILE STYLES (<480px) */
+@media (max-width: 480px) {
+    /* Clapper board adjustments */
+    .clapper-board {
+        width: 90%;
+        height: 60vh;
+    }
+    
+    /* Contact links adjustments */
+    .contact-wrapper {
+        bottom: 5%;
+        width: 90%;
+    }
+    .facebook, .instagram, .email {
+        font-size: 16px;
+        height: 30px;
+        top: -120px;
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+    }
+    
+    /* Dashboard adjustments */
+    .dash-board {
+        width: 95%;
+        margin: 15px auto;
+    }
+    
+    /* Software section adjustments */
+    .software {
+        font-size: 24px;
+    }
+    
+    /* Software icons adjustments */
+    .logosillustrator-icon,
+    .logosphotoshop-icon,
+    .logosindesign-icon,
+    .logosblender-icon,
+    .logoscapcut-icon,
+    .logosdavinci-resolve-icon,
+    .logosvisual-studio-code-icon {
+        width: 10%;
+    }
+    .logosfigma-icon {
+        width: 8%;
+    }
+    
+    /* Creative field adjustments */
+    .video-editing, .uiux-design, .uiux-design1 {
+        font-size: 20px;
+    }
+    
+    /* Adjust clapper board rotation for smaller screens */
+    .clapper-board.active .clapper-board-top {
+        transform: rotate(5deg);
+    }
+    .clapper-board.active .clapper-board-bottom {
+        transform: rotate(-1.5deg);
+    }
+}

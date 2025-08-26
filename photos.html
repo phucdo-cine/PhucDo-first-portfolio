@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuc Do's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="miniwork.css"> 
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html"> </a>
+        </div>
+        <ul class="navigation_menu">
+            <li class="underline_about">
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="index.html" id="logo link"><img id="logo" src="img/LOGO.png"></a>
+            </li>
+            <li class="underline_work">
+                <a href="work.html">WORK</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="works-4">
+        <b class="dive-into-interest">DIVE INTO INTEREST</b>
+        <div class="photography">Photography</div>
+        <div class="works-4-child"></div>
+        <img class="thp-i-malay fade-in-image" alt="" src="img/thap_doi_malay.png">
+        <img class="camera-sunset-icon fade-in-image" alt="" src="img/camera sunset.png">
+        <img class="christmas-icon fade-in-image" alt="" src="img/christmas.png">
+        <img class="book-shelf-icon fade-in-image" alt="" src="img/book shelf.png">
+        <img class="rainsun-icon fade-in-image" alt="" src="img/rain&sun.png">
+        <img class="beach-sunset-icon fade-in-image" alt="" src="img/beach sunset.png">
+        <img class="windowtree-icon fade-in-image" alt="" src="img/window&tree.png">
+        <img class="new-year-icon fade-in-image" alt="" src="img/new year.png">
+        <img class="sao-vng-icon fade-in-image" alt="" src="img/sao_vang.png">
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+  const images = document.querySelectorAll('.fade-in-image');
+
+  images.forEach((img, index) => {
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Delay each image by 200ms based on its index
+          setTimeout(() => {
+            img.classList.add('visible');
+          }, index * 200);
+          observer.unobserve(img); // Stop observing after animation
+        }
+      });
+    }, {
+      threshold: 0.1 // Trigger when 10% of the image is visible
+    });
+
+    observer.observe(img);
+  });
+});
+    </script>
+</body>
+</html>

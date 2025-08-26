@@ -1,0 +1,353 @@
+.explore-my-works {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+    font-family: var(--big-text);
+    text-align: center;
+    width: 100%;
+}
+.works {
+      width: 100%;
+      position: relative;
+      background-color: #000;
+      min-height: 2078px;
+      overflow: hidden;
+      text-align: left;
+      font-size: 36px;
+      color: #fff;
+      font-family: var(--para-text);
+      padding: 0 20px;
+      box-sizing: border-box;
+}
+.miniwork-link {
+    text-decoration: none; 
+    color: var(--white);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.storyboard-frame-icon {
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    width: 100%;
+    height: 457px;
+    object-fit: contain;
+}
+.frame-storyboard-1-line1 {
+    position: absolute;
+    top: 573.5px;
+    left: -2.5px;
+    border-top: 5px solid var(--primary-color-bisque);
+    box-sizing: border-box;
+    width: 100%;
+    height: 5px;
+}
+.frame-storyboard-1-line2 {
+    position: absolute;
+    top: 623.5px;
+    left: -2.5px;
+    border-top: 5px solid var(--primary-color-bisque);
+    box-sizing: border-box;
+    width: 100%;
+    height: 5px;
+}
+.project {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-family: var(--big-text);
+}
+.div {
+    position: absolute;
+    top: 69px;
+    left: 69px;
+}
+.once-upon-a {
+    position: absolute;
+    top: 534px;
+    left: 5px;
+    font-size: var(--font-size-28);
+}
+.div1 {
+    position: absolute;
+    top: 583px;
+    left: 5px;
+    font-size: var(--font-size-28);
+}
+.iconography {
+    position: absolute;
+    top: 76px;
+    left: 173px;
+    font-size: var(--font-size-26);
+}
+.ngy-xa-ngy-xa {
+    position: absolute;
+    top: 128px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: 382px;
+    object-fit: cover;
+}
+.frame-storyboard-1 {
+    position: absolute;
+    top: 357px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -350px;
+    width: 580px;
+    height: 626px;
+    cursor: pointer;
+}
+.how-to-be {
+    position: absolute;
+    top: 534px;
+    left: 5px;
+    font-size: var(--font-size-26);
+}
+.first-date- {
+    position: absolute;
+    top: 583px;
+    left: 5px;
+    font-size: var(--font-size-26);
+}
+.interactive-infographic {
+    position: absolute;
+    top: 76px;
+    left: 173px;
+    font-size: var(--font-size-26);
+}
+.how-to-be-confident {
+    position: absolute;
+    top: 128px;
+    left: 5px;
+    width: calc(100% - 10px);
+    height: 382px;
+    object-fit: cover;
+}
+.frame-storyboard-2 {
+    position: absolute;
+    top: 357px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 350px;
+    width: 580px;
+    height: 626px;
+    cursor: pointer;
+}
+.web-design {
+    position: absolute;
+    top: 75px;
+    left: 173px;
+    font-size: var(--font-size-26);
+}
+.frame-storyboard-3 {
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -350px;
+    width: 580px;
+    height: 626px;
+    cursor: pointer;
+}
+.ngy-xa-ngy-xa1 {
+    position: absolute;
+    top: 128px;
+    left: 5px;
+    width: calc(100% - 10px);
+    height: 382px;
+    object-fit: cover;
+}
+.frame-storyboard-4 {
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 350px;
+    width: 580px;
+    height: 626px;
+    cursor: pointer;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-family: var(--para-text);
+    color: var(--white);
+    background-color: var(--black);
+}
+footer pre {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* DESKTOP STYLES (>769px) - Default styles above */
+
+/* TABLET STYLES (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .explore-my-works {
+        font-size: 48px;
+        top: 100px;
+    }
+    
+    .works {
+        min-height: auto;
+        padding: 0 15px;
+    }
+    
+    /* Adjust frames to be in a single column */
+    .frame-storyboard-1, .frame-storyboard-2, 
+    .frame-storyboard-3, .frame-storyboard-4 {
+        width: 70%;
+        height: auto;
+        min-height: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    
+    .frame-storyboard-1 {
+        top: 200px;
+    }
+    
+    .frame-storyboard-2 {
+        top: auto;
+        margin-top: 40px;
+    }
+    
+    .frame-storyboard-3 {
+        top: auto;
+        margin-top: 40px;
+    }
+    
+    .frame-storyboard-4 {
+        top: auto;
+        margin-top: 40px;
+    }
+    
+    /* Adjust frame elements */
+    .storyboard-frame-icon {
+        height: 300px;
+    }
+    
+    .ngy-xa-ngy-xa, .how-to-be-confident, .ngy-xa-ngy-xa1 {
+        height: 250px;
+    }
+    
+    .frame-storyboard-1-line1 {
+        top: 415px;
+    }
+    
+    .frame-storyboard-1-line2 {
+        top: 465px;
+    }
+    
+    .once-upon-a, .div1, .how-to-be, .first-date- {
+        top: 375px;
+        font-size: 22px;
+    }
+    
+    .div1, .first-date- {
+        top: 425px;
+    }
+    
+    .project, .div {
+        font-size: 28px;
+    }
+    
+    .iconography, .interactive-infographic, .web-design {
+        font-size: 18px;
+    }
+}
+
+/* MOBILE STYLES (<480px) */
+@media (max-width: 480px) {
+    .explore-my-works {
+        font-size: 36px;
+        top: 80px;
+    }
+    
+    .works {
+        min-height: auto;
+        padding: 0 10px;
+    }
+    
+    /* Adjust frames to be full width and stacked */
+    .frame-storyboard-1, .frame-storyboard-2, 
+    .frame-storyboard-3, .frame-storyboard-4 {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        left: 0;
+        transform: none;
+        margin-left: 0;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    .frame-storyboard-1 {
+        top: 150px;
+    }
+    
+    .frame-storyboard-2 {
+        top: auto;
+        margin-top: 30px;
+    }
+    
+    .frame-storyboard-3 {
+        top: auto;
+        margin-top: 30px;
+    }
+    
+    .frame-storyboard-4 {
+        top: auto;
+        margin-top: 30px;
+    }
+    
+    /* Adjust frame elements */
+    .storyboard-frame-icon {
+        height: 200px;
+    }
+    
+    .ngy-xa-ngy-xa, .how-to-be-confident, .ngy-xa-ngy-xa1 {
+        height: 180px;
+    }
+    
+    .frame-storyboard-1-line1 {
+        top: 290px;
+    }
+    
+    .frame-storyboard-1-line2 {
+        top: 340px;
+    }
+    
+    .once-upon-a, .div1, .how-to-be, .first-date- {
+        top: 250px;
+        font-size: 18px;
+    }
+    
+    .div1, .first-date- {
+        top: 300px;
+    }
+    
+    .project, .div {
+        font-size: 24px;
+    }
+    
+    .iconography, .interactive-infographic, .web-design {
+        font-size: 16px;
+        left: 120px;
+    }
+    
+    /* Footer adjustments */
+    footer pre {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phuc Do's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="miniwork.css"> 
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html"> </a>
+        </div>
+        <ul class="navigation_menu">
+            <li class="underline_about">
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="index.html" id="logo link"><img id="logo" src="img/LOGO.png"></a>
+            </li>
+            <li class="underline_work">
+                <a href="work.html">WORK</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="works-2">
+      <b class="how-to-be-container">
+        <p class="how-to-be">HOW TO BE CONFIDENT ON </p>
+        <p class="how-to-be">YOUR FIRST DATE</p>
+      </b>
+      <img class="confident-home-icon" alt="" src="img/confident_home.png">
+      <div class="works-2-child"></div>
+      <div class="in-this-modern">In this modern day, there are variety reasons for a girl to be confident. Among them, we believe that love yourself should be the foremost priority to become confident and beautiful. Therefore, we create this short story inspiring from the legendary fairytale “The little Mermaid”. We wish for every girls from all age out there to take care of themselves, love themselves and be more confident. First impressions have always been important in many situation to relationships around us. So we would like to encourage and show people simple 8 steps on preparing for important outings, in the case of our story, a first date, so that they can enjoy their moment to the fullest.</div>
+      <div class="group-project-2">Group project</div>
+      <div class="role-line-vector-2">Role. line vector & prototype</div>
+      <div class="tools-illustrator-2">Tools. Illustrator & Figma</div>
+      <img class="confident-overall-step" alt="" src="img/confident-overall-step.png">
+      <div class="gallery-container">
+        <!-- First row - floating left -->
+         <div class="gallery-row gallery-row-left">
+          <!-- First row images -->
+           <div class="gallery-item">
+            <img src="img/confident-1.png" alt="confident-1">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-2.png" alt="confident-2">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-3.png" alt="confident-3">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-4.png" alt="confident-4">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-5.png" alt="confident-5">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-6.png" alt="confident-6">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-7.png" alt="confident-7">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-8.png" alt="confident-8">
+          </div>
+        </div>
+        
+        <!-- Second row - floating right -->
+         <div class="gallery-row gallery-row-right">
+          <!-- Second row images -->
+           <div class="gallery-item">
+            <img src="img/confident-9.png" alt="confident-9">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-10.png" alt="confident-10">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-11.png" alt="confident-11">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-12.png" alt="confident-12">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-13.png" alt="confident-13">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-14.png" alt="confident-14">
+          </div>
+          <div class="gallery-item">
+            <img src="img/confident-15.png" alt="confident-15">
+          </div>
+        </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  setupInfiniteGalleries();
+  
+  // For responsive adjustments
+  window.addEventListener('resize', function() {
+    setupInfiniteGalleries();
+  });
+});
+
+function setupInfiniteGalleries() {
+  const leftRow = document.querySelector('.gallery-row-left');
+  const rightRow = document.querySelector('.gallery-row-right');
+  
+  if (leftRow && rightRow) {
+    // Clone items for seamless looping
+    setupInfiniteRow(leftRow);
+    setupInfiniteRow(rightRow);
+    
+    // Adjust animation duration based on the number of items
+    adjustAnimationSpeed(leftRow, 'scrollLeft');
+    adjustAnimationSpeed(rightRow, 'scrollRight');
+  }
+}
+
+function setupInfiniteRow(row) {
+  // First, clear any previous clones
+  const originalItems = Array.from(row.querySelectorAll('.gallery-item:not(.clone)'));
+  const cloneItems = Array.from(row.querySelectorAll('.gallery-item.clone'));
+  
+  cloneItems.forEach(item => item.remove());
+  
+  // Clone items and append them for seamless looping
+  originalItems.forEach(item => {
+    const clone = item.cloneNode(true);
+    clone.classList.add('clone');
+    row.appendChild(clone);
+  });
+}
+
+function adjustAnimationSpeed(row, animationName) {
+  const items = row.querySelectorAll('.gallery-item:not(.clone)');
+  const totalWidth = Array.from(items).reduce((sum, item) => sum + item.offsetWidth + 20, 0); // 20 is the gap
+  
+  // Adjust animation duration based on content width - faster for more content
+  const duration = Math.max(20, Math.min(40, totalWidth / 50));
+  
+  // Apply the calculated animation duration
+  row.style.animationDuration = `${duration}s`;
+}
+  </script>
+</body>
+</html>
